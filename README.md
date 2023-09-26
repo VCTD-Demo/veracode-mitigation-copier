@@ -1,5 +1,11 @@
 # Veracode Mitigation Copier
 
+
+> [MitigationCopierv2.py](./MitigationCopierv2.py) has a seperate driver function opening up functionality to include proposed mitigation and also be used to migrate mitigations from a sandbox to applications profiles/policy scans. It takes either set of 2 parameters along with your API credentials.
+Todo: Add Credential file functionality to the MitigationCopierv2.py
+
+
+
 Copies mitigations from one Veracode profile to another if it's the same flaw based on the following flaw attributes:
 
 - **Static**: `cweid`, `type`, `sourcefile`, and `line` (see Note 1 below)
